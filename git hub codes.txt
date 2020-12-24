@@ -1,0 +1,13 @@
+cd= command directory
+* cd f:/ => go to that drive
+* cd vishwajit/ => go to that follder in that drive
+* cd .. => go back to second last file/drive
+ls= list in directory
+* ls => shows which folders are there in drive/file
+* ls -l => showss list vertically
+* ls -l c* shows all files starting with letter c
+* ls -la get long format list
+* ls -a shows all files also hidden files
+* ctrl+u / ctrl+k right or left vanish from pointer
+* ctrl+l clears all page
+* 

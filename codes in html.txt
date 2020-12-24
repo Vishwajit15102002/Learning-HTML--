@@ -1,0 +1,41 @@
+1] font-weight: bold;
+2] Margrim is spacing around outsude of the border
+3] padding is spacing around inside of the border
+4] If 2 same tags are there for ex <h1> hi </h1> <h1> hay </h1> then for applying styles for any 1 particular heading then specify it with a particular id
+like <h1 id="foo"> hi </h1> then we can apply style for specified <h1> by <style> #foo {} </style>
+5] If there are same 3 or more tags and we have to give style to any 2 then we have to specify that 2 by class atribute <h1 class="bazz"> hi </h1> <h1 class="bazz"> hay </h1>
+ then <style> .bazz {} </style> 
+6] CSS Selectors
+a) a,b multiple elememts selector
+b) a b descendant selector
+c) a>b Child selector ex <style> ul>li {color:blue} </style> if there is unordered list in the list then it implies  unordered list in blue color
+d) a+b Adjacent sibling selector
+e) [a:b] Attribute Selector = square bracket is used to specify a particular attribute ex=
+<style> a[href="https://yahoo.com"] {color:blue} </style>
+<ul>
+<li> <a href="https://google.com"> google </a> </li>
+<li> <a href="https://yahoo.com"> yahoo </a> </li>
+<li> <a href="https://bing.com"> bing </a> </li> 
+f) a:b Pseudoclass selector
+g) a::b pseudoelement selector 
+7) <meta name="viewport" content="width=device-width, initial-scale=1.0"> helps to display in various size devices like mobiles, tablets, pc, laptops etc
+8) @media attribute is used for presenting the demo on specific devices ex=
+<style>  @media(min-width: 600px){body { background-color:red:}}
+@media(max-width: 599px){body { background-color:red:}} helps to change style depending upon screen
+9) If there are too many same tags like <div id="container"> and fr display on various devices we should use 
+<style> #container {display:flex; flex-wrap: wrap; background-color: springgreen; } </style>
+10) <div class="alert alert-primary" role="alert">
+  This is alert message
+</div>
+a] A simple primary alert—check it out! comes in blue color.
+b] A simple secondary alert—check it out! comes in grey color.
+c] A simple success alert—check it out! comes in green color.
+d] A simple danger alert—check it out! comes in red color.
+e] A simple warning alert—check it out! comes in yellow color.
+f] A simple info alert—check it out! comes in blue color.
+g] A simple light alert—check it out! comes in white color.
+
+
+
+
+
